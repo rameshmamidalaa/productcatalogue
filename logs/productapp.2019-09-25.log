@@ -1,0 +1,1706 @@
+2019-09-25 11:37:17 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Starting ProductcatalogueApplicationTests on if096 with PID 9727 (started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-25 11:37:17 [main] INFO  c.s.h.ProductcatalogueApplicationTests -The following profiles are active: dev
+2019-09-25 11:37:19 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-25 11:37:19 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-25 11:37:19 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-25 11:37:19 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-25 11:37:19 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-25 11:37:19 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@4315c28c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@4315c28c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4315c28c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7fb8bad0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration true_false -> org.hibernate.type.TrueFalseType@236ae13d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration yes_no -> org.hibernate.type.YesNoType@46320c9a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@7af0affa
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@7af0affa
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7af0affa
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration character -> org.hibernate.type.CharacterType@1d7eb170
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char -> org.hibernate.type.CharacterType@1d7eb170
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1d7eb170
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@383cb5ce
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@383cb5ce
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Short -> org.hibernate.type.ShortType@383cb5ce
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration integer -> org.hibernate.type.IntegerType@3434a4f0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration int -> org.hibernate.type.IntegerType@3434a4f0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3434a4f0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@4b325930
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@4b325930
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Long -> org.hibernate.type.LongType@4b325930
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@25a1a012
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@25a1a012
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Float -> org.hibernate.type.FloatType@25a1a012
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@69aabcb0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@69aabcb0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@69aabcb0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@b950f82
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@b950f82
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2dfeb141
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2dfeb141
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration string -> org.hibernate.type.StringType@58dad04a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.String -> org.hibernate.type.StringType@58dad04a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4d0cc83e
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6d963d70
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration url -> org.hibernate.type.UrlType@42ed89da
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.net.URL -> org.hibernate.type.UrlType@42ed89da
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Duration -> org.hibernate.type.DurationType@44592c39
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Duration -> org.hibernate.type.DurationType@44592c39
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Instant -> org.hibernate.type.InstantType@7135ce0a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Instant -> org.hibernate.type.InstantType@7135ce0a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5e0c4f21
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5e0c4f21
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDate -> org.hibernate.type.LocalDateType@70b2fa10
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@70b2fa10
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5927f904
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5927f904
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@184823ed
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@184823ed
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@28e8888d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@28e8888d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@52b959df
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@52b959df
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration date -> org.hibernate.type.DateType@1f7cec93
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Date -> org.hibernate.type.DateType@1f7cec93
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration time -> org.hibernate.type.TimeType@6467ddc7
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6467ddc7
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timestamp -> org.hibernate.type.TimestampType@38fb50f8
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@38fb50f8
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Date -> org.hibernate.type.TimestampType@38fb50f8
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3b97907c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar -> org.hibernate.type.CalendarType@70ede57d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@70ede57d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@70ede57d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6c538eb2
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration locale -> org.hibernate.type.LocaleType@63f40ca0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@63f40ca0
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration currency -> org.hibernate.type.CurrencyType@6ee5f485
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6ee5f485
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timezone -> org.hibernate.type.TimeZoneType@1ab14636
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1ab14636
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration class -> org.hibernate.type.ClassType@4b88ca8e
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4b88ca8e
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1f10fec6
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1f10fec6
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7cff3f1d
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration binary -> org.hibernate.type.BinaryType@510689af
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte[] -> org.hibernate.type.BinaryType@510689af
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [B -> org.hibernate.type.BinaryType@510689af
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@592ca48c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@592ca48c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@592ca48c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration row_version -> org.hibernate.type.RowVersionType@4017fe2c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration image -> org.hibernate.type.ImageType@3e26482
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration characters -> org.hibernate.type.CharArrayType@5f08fe00
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char[] -> org.hibernate.type.CharArrayType@5f08fe00
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [C -> org.hibernate.type.CharArrayType@5f08fe00
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@9df564f
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@9df564f
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@9df564f
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration text -> org.hibernate.type.TextType@241fbec
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ntext -> org.hibernate.type.NTextType@4b765e92
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration blob -> org.hibernate.type.BlobType@15d3793b
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@15d3793b
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@68a305eb
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration clob -> org.hibernate.type.ClobType@27976390
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@27976390
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nclob -> org.hibernate.type.NClobType@42679fc2
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@42679fc2
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@c2cf597
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6f6cc7da
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration serializable -> org.hibernate.type.SerializableType@587c5c1
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration object -> org.hibernate.type.ObjectType@7a83ccd2
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7a83ccd2
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3a1b36a1
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5e1a986c
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4b55ff0a
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@46a795de
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@256a0d95
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2f3928ac
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4bf03fee
+2019-09-25 11:37:19 [main] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@31834a2b
+2019-09-25 11:37:20 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-25 11:37:20 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3dfd6220] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3815146b]
+2019-09-25 11:37:20 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3dfd6220] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@3c60c681]
+2019-09-25 11:37:20 [main] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@3c60c681] for TypeConfiguration
+2019-09-25 11:37:21 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+2019-09-25 11:37:22 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-25 11:37:23 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-25 11:37:23 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-25 11:37:23 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-25 11:37:23 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Started ProductcatalogueApplicationTests in 6.896 seconds (JVM running for 7.483)
+2019-09-25 11:37:23 [Thread-5] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@3c60c681] for TypeConfiguration
+2019-09-25 11:37:23 [Thread-5] DEBUG o.h.type.spi.TypeConfiguration$Scope -Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@33f6aa0f] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3c60c681]
+2019-09-25 11:37:23 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-25 11:37:23 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-25 11:37:40 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 9796 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-25 11:37:40 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-25 11:37:42 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-25 11:37:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25 11:37:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-25 11:37:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-25 11:37:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-25 11:37:43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-25 11:37:43 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-25 11:37:43 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-25 11:37:43 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@64ef9d16
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@64ef9d16
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@64ef9d16
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@38c23b55
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration true_false -> org.hibernate.type.TrueFalseType@2a81c604
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration yes_no -> org.hibernate.type.YesNoType@7735d956
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@3df2640b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@3df2640b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3df2640b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration character -> org.hibernate.type.CharacterType@1f49d0bd
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char -> org.hibernate.type.CharacterType@1f49d0bd
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1f49d0bd
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@7c721513
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@7c721513
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7c721513
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration integer -> org.hibernate.type.IntegerType@662a3dce
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration int -> org.hibernate.type.IntegerType@662a3dce
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@662a3dce
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@5141df8e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@5141df8e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Long -> org.hibernate.type.LongType@5141df8e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@2af801da
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@2af801da
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2af801da
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@5222a8ed
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@5222a8ed
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5222a8ed
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6ac9dcff
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6ac9dcff
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6e1ba53c
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6e1ba53c
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration string -> org.hibernate.type.StringType@3980ab9d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.String -> org.hibernate.type.StringType@3980ab9d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1dc4b243
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1d2f767e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration url -> org.hibernate.type.UrlType@13769f2e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.net.URL -> org.hibernate.type.UrlType@13769f2e
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Duration -> org.hibernate.type.DurationType@360f4129
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Duration -> org.hibernate.type.DurationType@360f4129
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Instant -> org.hibernate.type.InstantType@2232f036
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2232f036
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@641779db
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@641779db
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDate -> org.hibernate.type.LocalDateType@240bb7b9
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@240bb7b9
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@fc97026
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@fc97026
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@17b27d75
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@17b27d75
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@77e85bd0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@77e85bd0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6aff8fe0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6aff8fe0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration date -> org.hibernate.type.DateType@398960fd
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Date -> org.hibernate.type.DateType@398960fd
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration time -> org.hibernate.type.TimeType@4b098f24
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4b098f24
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timestamp -> org.hibernate.type.TimestampType@21e38459
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@21e38459
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Date -> org.hibernate.type.TimestampType@21e38459
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@f7dd077
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar -> org.hibernate.type.CalendarType@505cdc8f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@505cdc8f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@505cdc8f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@70a90dbf
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration locale -> org.hibernate.type.LocaleType@748f01f5
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@748f01f5
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration currency -> org.hibernate.type.CurrencyType@176d3cb1
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@176d3cb1
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timezone -> org.hibernate.type.TimeZoneType@10d1571f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@10d1571f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration class -> org.hibernate.type.ClassType@38df8243
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Class -> org.hibernate.type.ClassType@38df8243
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5b7c0d0d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5b7c0d0d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@68e6b1a
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration binary -> org.hibernate.type.BinaryType@4768af0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte[] -> org.hibernate.type.BinaryType@4768af0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [B -> org.hibernate.type.BinaryType@4768af0
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@19d8ab02
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@19d8ab02
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@19d8ab02
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration row_version -> org.hibernate.type.RowVersionType@22881ff2
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration image -> org.hibernate.type.ImageType@301547ca
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration characters -> org.hibernate.type.CharArrayType@4998e87d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char[] -> org.hibernate.type.CharArrayType@4998e87d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [C -> org.hibernate.type.CharArrayType@4998e87d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@92c8c0b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@92c8c0b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@92c8c0b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration text -> org.hibernate.type.TextType@b3acfd6
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ntext -> org.hibernate.type.NTextType@4aea53f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration blob -> org.hibernate.type.BlobType@79139cfa
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@79139cfa
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@465d9f0d
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration clob -> org.hibernate.type.ClobType@29ab6303
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@29ab6303
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nclob -> org.hibernate.type.NClobType@268adbb5
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@268adbb5
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@70bd85c3
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@16277494
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration serializable -> org.hibernate.type.SerializableType@5dd98f4b
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration object -> org.hibernate.type.ObjectType@36fb620c
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@36fb620c
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6596c82a
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@8103d96
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@16583fee
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4dc8ae1f
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1e4cf814
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@17b99ac6
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@40c96090
+2019-09-25 11:37:43 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@48f986c0
+2019-09-25 11:37:43 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-25 11:37:43 [restartedMain] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3d5e6316] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@53e0faf8]
+2019-09-25 11:37:43 [restartedMain] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3d5e6316] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7f84c98b]
+2019-09-25 11:37:43 [restartedMain] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@7f84c98b] for TypeConfiguration
+2019-09-25 11:37:43 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+2019-09-25 11:37:44 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-25 11:37:44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-25 11:37:44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-25 11:37:45 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-25 11:37:45 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 5.26 seconds (JVM running for 5.88)
+2019-09-25 11:37:45 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:38:20 [http-nio-8099-exec-10] WARN  i.s.m.p.AbstractSerializableParameter -Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3906)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3220)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-25 11:39:12 [http-nio-8099-exec-9] INFO  c.s.h.c.ProductCatalogueController -Fetching the available ProductCatalogue::
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [1]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [BIGINT] - [2]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.jpeg]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [120.0]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [CR456]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Professional wear]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [Rockport]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [2]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 11:39:12 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 11:50:43 [RMI TCP Connection(22)-127.0.0.1] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@7f84c98b] for TypeConfiguration
+2019-09-25 11:50:43 [RMI TCP Connection(22)-127.0.0.1] DEBUG o.h.type.spi.TypeConfiguration$Scope -Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@6b8ea81b] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@7f84c98b]
+2019-09-25 11:50:43 [RMI TCP Connection(22)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-25 11:50:43 [RMI TCP Connection(22)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-25 12:32:33 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 12782 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-25 12:32:33 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-25 12:32:35 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-25 12:32:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25 12:32:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-25 12:32:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-25 12:32:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-25 12:32:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-25 12:32:36 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-25 12:32:36 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-25 12:32:36 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@73d18b1a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration boolean -> org.hibernate.type.BooleanType@73d18b1a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@73d18b1a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@23cc40
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration true_false -> org.hibernate.type.TrueFalseType@136419bb
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration yes_no -> org.hibernate.type.YesNoType@4bcf687
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@4e627a66
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte -> org.hibernate.type.ByteType@4e627a66
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4e627a66
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration character -> org.hibernate.type.CharacterType@3c2d761d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char -> org.hibernate.type.CharacterType@3c2d761d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3c2d761d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@f9ae885
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration short -> org.hibernate.type.ShortType@f9ae885
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Short -> org.hibernate.type.ShortType@f9ae885
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration integer -> org.hibernate.type.IntegerType@741f727c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration int -> org.hibernate.type.IntegerType@741f727c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@741f727c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@42b749ee
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration long -> org.hibernate.type.LongType@42b749ee
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Long -> org.hibernate.type.LongType@42b749ee
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@533dfeed
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration float -> org.hibernate.type.FloatType@533dfeed
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Float -> org.hibernate.type.FloatType@533dfeed
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@11fdec8a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration double -> org.hibernate.type.DoubleType@11fdec8a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@11fdec8a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@38020e5a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@38020e5a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration big_integer -> org.hibernate.type.BigIntegerType@16d2a826
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@16d2a826
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration string -> org.hibernate.type.StringType@359e1b8a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.String -> org.hibernate.type.StringType@359e1b8a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6b95c476
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@211eaf30
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration url -> org.hibernate.type.UrlType@3efd5ea9
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.net.URL -> org.hibernate.type.UrlType@3efd5ea9
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Duration -> org.hibernate.type.DurationType@34e2f143
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Duration -> org.hibernate.type.DurationType@34e2f143
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Instant -> org.hibernate.type.InstantType@53d7815
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.Instant -> org.hibernate.type.InstantType@53d7815
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2b88bb0c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2b88bb0c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalDate -> org.hibernate.type.LocalDateType@f079505
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@f079505
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6d3b4d59
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6d3b4d59
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7847aba9
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7847aba9
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5efafc07
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5efafc07
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41c0a8f
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41c0a8f
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration date -> org.hibernate.type.DateType@229c0131
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Date -> org.hibernate.type.DateType@229c0131
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration time -> org.hibernate.type.TimeType@7f330785
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7f330785
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timestamp -> org.hibernate.type.TimestampType@297c16d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@297c16d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Date -> org.hibernate.type.TimestampType@297c16d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3d456174
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar -> org.hibernate.type.CalendarType@2fc82371
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2fc82371
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2fc82371
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6dc5739b
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration locale -> org.hibernate.type.LocaleType@59628ea1
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@59628ea1
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration currency -> org.hibernate.type.CurrencyType@6560b85
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6560b85
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration timezone -> org.hibernate.type.TimeZoneType@3cd3b95d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3cd3b95d
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration class -> org.hibernate.type.ClassType@6ee3451
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6ee3451
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@51a6b59a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@51a6b59a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@38c78cb9
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration binary -> org.hibernate.type.BinaryType@7b12950
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration byte[] -> org.hibernate.type.BinaryType@7b12950
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [B -> org.hibernate.type.BinaryType@7b12950
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5ba8d426
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5ba8d426
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5ba8d426
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration row_version -> org.hibernate.type.RowVersionType@4d00e589
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration image -> org.hibernate.type.ImageType@5e8b930c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration characters -> org.hibernate.type.CharArrayType@63317030
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration char[] -> org.hibernate.type.CharArrayType@63317030
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [C -> org.hibernate.type.CharArrayType@63317030
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6f529c06
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6f529c06
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6f529c06
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration text -> org.hibernate.type.TextType@770ff386
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration ntext -> org.hibernate.type.NTextType@56675eb2
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration blob -> org.hibernate.type.BlobType@cc137ff
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@cc137ff
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@73b12115
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration clob -> org.hibernate.type.ClobType@42b520a7
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@42b520a7
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration nclob -> org.hibernate.type.NClobType@76649233
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@76649233
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@50f06d7a
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@38142d5f
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration serializable -> org.hibernate.type.SerializableType@55ca6285
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration object -> org.hibernate.type.ObjectType@563fc616
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@563fc616
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@546db23c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7c4ad1d1
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3ded573c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3abe917c
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3fb2845
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2995b5b2
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7e96430b
+2019-09-25 12:32:36 [restartedMain] DEBUG org.hibernate.type.BasicTypeRegistry -Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@30ed18d4
+2019-09-25 12:32:36 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-25 12:32:36 [restartedMain] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@33d0496f] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7d90d008]
+2019-09-25 12:32:37 [restartedMain] DEBUG o.h.type.spi.TypeConfiguration$Scope -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@33d0496f] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@13dbc29a]
+2019-09-25 12:32:37 [restartedMain] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@13dbc29a] for TypeConfiguration
+2019-09-25 12:32:37 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+2019-09-25 12:32:38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-25 12:32:38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-25 12:32:38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-25 12:32:38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-25 12:32:38 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 5.393 seconds (JVM running for 5.884)
+2019-09-25 12:32:40 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [VARCHAR] - [CR456]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [VARCHAR] - [CR456]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [3] as [VARCHAR] - [CR456]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.jpeg]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [120.0]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [CR456]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Professional wear]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [Rockport]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [2]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:01:17 [http-nio-8099-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 13:02:09 [http-nio-8099-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [VARCHAR] - [S123]
+2019-09-25 13:02:09 [http-nio-8099-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [VARCHAR] - [S123]
+2019-09-25 13:02:09 [http-nio-8099-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [3] as [VARCHAR] - [S123]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] INFO  c.s.h.c.ProductCatalogueController -Fetching the available ProductCatalogue::
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [1]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [BIGINT] - [2]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:49:32.43]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.jpeg]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [120.0]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [CR456]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Professional wear]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [Rockport]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [2]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [3]
+2019-09-25 13:02:48 [http-nio-8099-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] INFO  c.s.h.c.ProductCatalogueController -Fetching the available ProductCatalogue::
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [BIGINT] - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:35:24.931]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:35:24.931]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.gif]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [95.0]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [S456]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Running Shoes]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [AdidasBoost]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:46:00.006]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:46:00.006]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.jpeg]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [120.0]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [R123]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Training Shoes]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [ReebokRun]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [2]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:02:53 [http-nio-8099-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [VARCHAR] - [S456]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [2] as [VARCHAR] - [S456]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [3] as [VARCHAR] - [S456]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([id1_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([created_2_0_] : [TIMESTAMP]) - [2019-09-24 14:35:24.931]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([updated_3_0_] : [TIMESTAMP]) - [2019-09-24 14:35:24.931]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([imageurl4_0_] : [VARCHAR]) - [/image.gif]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([price5_0_] : [DOUBLE]) - [95.0]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_9_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_6_0_] : [VARCHAR]) - [S456]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_7_0_] : [VARCHAR]) - [Running Shoes]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_8_0_] : [VARCHAR]) - [AdidasBoost]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product10_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE org.hibernate.type.CollectionType -Created collection wrapper: [com.snippers.hackathon.entity.Product.sizes#1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -binding parameter [1] as [BIGINT] - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [8]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [9]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([product_1_2_0_] : [BIGINT]) - [1]
+2019-09-25 13:03:04 [http-nio-8099-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -extracted value ([sizes2_2_0_] : [INTEGER]) - [10]
+2019-09-25 13:44:11 [RMI TCP Connection(82)-127.0.0.1] TRACE o.h.type.spi.TypeConfiguration$Scope -Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@13dbc29a] for TypeConfiguration
+2019-09-25 13:44:11 [RMI TCP Connection(82)-127.0.0.1] DEBUG o.h.type.spi.TypeConfiguration$Scope -Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1aa998f] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@13dbc29a]
+2019-09-25 13:44:11 [RMI TCP Connection(82)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-25 13:44:12 [RMI TCP Connection(82)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

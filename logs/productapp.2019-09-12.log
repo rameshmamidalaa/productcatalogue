@@ -1,0 +1,141 @@
+2019-09-12 20:35:26 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Starting ProductcatalogueApplicationTests on if096 with PID 10705 (started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 20:35:26 [main] INFO  c.s.h.ProductcatalogueApplicationTests -The following profiles are active: dev
+2019-09-12 20:35:28 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 20:35:28 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 20:35:29 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 20:35:29 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 20:35:29 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 20:35:29 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 20:35:29 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 20:35:29 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@186d8a71'
+2019-09-12 20:35:31 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Started ProductcatalogueApplicationTests in 6.259 seconds (JVM running for 7.147)
+2019-09-12 20:35:32 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 20:35:32 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 20:35:32 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-12 20:36:01 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 10894 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 20:36:01 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-12 20:36:03 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-12 20:36:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 20:36:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-12 20:36:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 20:36:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 20:36:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 20:36:04 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 20:36:04 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 20:36:04 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 20:36:04 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 20:36:04 [restartedMain] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@59367517'
+2019-09-12 20:36:05 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 4.288 seconds (JVM running for 4.987)
+2019-09-12 20:36:05 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 20:37:31 [Thread-7] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 20:37:31 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 20:37:31 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-12 20:37:32 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 10894 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 20:37:32 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-12 20:37:32 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-12 20:37:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 20:37:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-12 20:37:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Starting...
+2019-09-12 20:37:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Start completed.
+2019-09-12 20:37:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 20:37:33 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 20:37:33 [restartedMain] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@59367517'
+2019-09-12 20:37:33 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 1.283 seconds (JVM running for 93.186)
+2019-09-12 20:37:37 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 20:37:41 [RMI TCP Connection(15)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 20:37:41 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Shutdown initiated...
+2019-09-12 20:37:41 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-2 - Shutdown completed.
+2019-09-12 21:24:29 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Starting ProductcatalogueApplicationTests on if096 with PID 19647 (started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 21:24:29 [main] INFO  c.s.h.ProductcatalogueApplicationTests -The following profiles are active: dev
+2019-09-12 21:24:32 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 21:24:32 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 21:24:32 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 21:24:32 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 21:24:32 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 21:24:33 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 21:24:33 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 21:24:34 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5ed65e4b'
+2019-09-12 21:24:36 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-12 21:24:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-12 21:24:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-12 21:24:37 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-12 21:24:37 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Started ProductcatalogueApplicationTests in 8.403 seconds (JVM running for 9.287)
+2019-09-12 21:24:37 [Thread-6] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 21:24:38 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 21:24:38 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-12 21:25:33 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 19915 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 21:25:33 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-12 21:25:36 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-12 21:25:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 21:25:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-12 21:25:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 21:25:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 21:25:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 21:25:37 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 21:25:37 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 21:25:37 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 21:25:37 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 21:25:37 [restartedMain] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@b159053'
+2019-09-12 21:25:38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-12 21:25:39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-12 21:25:39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-12 21:25:39 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-12 21:25:39 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 5.995 seconds (JVM running for 6.627)
+2019-09-12 21:25:42 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 21:28:41 [RMI TCP Connection(13)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 21:28:41 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 21:28:41 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-12 21:35:16 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Starting ProductcatalogueApplicationTests on if096 with PID 22597 (started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 21:35:16 [main] INFO  c.s.h.ProductcatalogueApplicationTests -The following profiles are active: dev
+2019-09-12 21:35:18 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 21:35:18 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 21:35:19 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 21:35:19 [main] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 21:35:19 [main] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 21:35:19 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 21:35:19 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 21:35:20 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7c421952'
+2019-09-12 21:35:22 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-12 21:35:24 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-12 21:35:24 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-12 21:35:24 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-12 21:35:24 [main] INFO  c.s.h.ProductcatalogueApplicationTests -Started ProductcatalogueApplicationTests in 8.675 seconds (JVM running for 9.629)
+2019-09-12 21:35:24 [Thread-6] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 21:35:24 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 21:35:24 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2019-09-12 21:35:32 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Starting ProductcatalogueApplication on if096 with PID 22724 (/home/rmamidala/workspace/productsnippers/productcatalogue/target/classes started by rmamidala in /home/rmamidala/workspace/productsnippers/productcatalogue)
+2019-09-12 21:35:32 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -The following profiles are active: dev
+2019-09-12 21:35:34 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-09-12 21:35:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 21:35:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-09-12 21:35:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-09-12 21:35:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-09-12 21:35:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-12 21:35:35 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-12 21:35:35 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2019-09-12 21:35:36 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-12 21:35:36 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-12 21:35:36 [restartedMain] INFO  o.h.t.s.internal.SchemaCreatorImpl -HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7f81a9b9'
+2019-09-12 21:35:37 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-12 21:35:37 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Context refreshed
+2019-09-12 21:35:38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -Found 1 custom documentation plugin(s)
+2019-09-12 21:35:38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner -Scanning for api listing references
+2019-09-12 21:35:38 [restartedMain] INFO  c.s.h.ProductcatalogueApplication -Started ProductcatalogueApplication in 6.198 seconds (JVM running for 6.97)
+2019-09-12 21:35:39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-12 21:45:29 [RMI TCP Connection(21)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-12 21:45:29 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2019-09-12 21:45:29 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
